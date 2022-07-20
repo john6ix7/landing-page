@@ -6,13 +6,13 @@ html, body, html * {
 }
 body {
     margin: 0;
-    min-height: 100vh;
+    padding: 0;
 
 }
 .content {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+
 }
 .sign-up-info {
     color: white;
@@ -72,17 +72,17 @@ a, .hero-text {
 }
 /* Css that targets information section */
 .info-img {
-    width: 150px;
-    height: auto;
+    width: 210px;
     border: 3px solid #3882F6;
     border-radius: 8px;
-    
 }
 .info {
     display: flex;
     justify-content: center;
-    height: 350px;
+    min-height: 350px;
     gap:40px;
+    flex-wrap: wrap;
+    
 }
 .info-title {
     display: flex;
@@ -96,21 +96,20 @@ a, .hero-text {
 }
 .info-text {
     text-align: center;
-    max-width: 150px;
+    width: 210px;
     color: #93959a;
+   
 }
 /* Css that targets quote section */
 .quote {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    height: 350px;
     justify-content: center;
     align-items: center;
+    padding: 140px 200px ;
 }
-.quote-box {
-    width: 810px;
-}
+
 .author {
     display: flex;
     justify-content: flex-end;
@@ -119,6 +118,7 @@ a, .hero-text {
 .quote-text{
     font-size: 36px;
     color: #1F2937;
+
 }
 /* Css that targets sign-up section */
 .sign-up {
@@ -126,7 +126,7 @@ a, .hero-text {
     height: 300px;
     justify-content: center;
     align-items: center;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 .sign-up-box {
     background-color: #3882F6;
@@ -136,14 +136,14 @@ a, .hero-text {
     width: 1000px;
     height: 120px;
     border-radius: 8px;
-
 }
 .sign-up-box h3 {
     color: #F9FAF8;
     margin: 30px 0px 0px 50px;
 }
 .sign-up-box  p {
-    color: #93959a;
+    color: #F9FAF8;
+    font-weight: lighter;
     margin: 5px 30px 30px 50px;
 }
 .sign-up-button {
